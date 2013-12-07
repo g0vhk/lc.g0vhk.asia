@@ -24,42 +24,17 @@ select
   width: 220px
   font-size: 14px
 
+i.icon
+  font-family: Icons !important
+i.basic.icon
+  font-family: 'Basic Icons' !important
+i.g0v-icon
+  font-family: g0v-ly !important
+
 .container
   margin: 0 auto
   @media (min-width: 1200px)
     width: 1170px
-.ui.top.fixed.inverted.menu
-  text-shadow: 0 -1px 0 rgba(0,0,0,.25)
-  background-color: #663300
-  background-image: linear-gradient(to bottom, #663300, #663300)
-  .item
-    padding: 1em
-    &.active, &:hover, &:focus
-      background-color: #371b00
-  .brand
-    background: url("/img/logo.png") left no-repeat
-    padding: 12px 40px
-    margin-left: 0px
-    color: #ffcc00
-    font-size: 26px
-    font-weight: bold
-    &:hover, &:focus
-      background: url("/img/logow.png") left no-repeat
-      color: #fff
-  .right.floated.menu
-    @media screen and (max-width: 1725px)
-      margin-right: 100px
-    .item
-      padding: 0 5px
-      &:hover, &:focus
-        background: none
-      &.about
-        padding: 1em
-        &.active, &:hover, &:focus
-          background-color: #371b00
-      &.g0v-logo
-        img
-          height: 50px
 
 .ui.tabular.menu
   .item
